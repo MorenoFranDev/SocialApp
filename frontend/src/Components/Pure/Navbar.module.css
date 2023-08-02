@@ -1,0 +1,47 @@
+.navbar{
+    position: absolute;
+    left: 0;right: 0;top: 0;
+    background-color: #121212 ;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+    align-items: center;
+    
+}
+
+.navbar .navbar_items{
+    margin: auto;
+}
+.navbar .navbar_items_li{
+    margin: 0 .5rem;
+    text-decoration: none;
+    padding: .5rem 1rem ;
+    color: white;
+}
+.navbar .navbar_items_li:hover{
+    background-color: grey;
+    color: black;
+    font-weight: 600;
+    border-radius: .5rem;
+}
+
+.userInfo{
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    height: 2rem;
+}
+
+img{
+    margin: 0 1rem 0 0 ;
+    width: 2rem;
+}
+
+.button{
+    font-size: 14px;
+    font-weight: 800;
+}
+.button:hover{
+    background-color: #3F3F3F;
+}

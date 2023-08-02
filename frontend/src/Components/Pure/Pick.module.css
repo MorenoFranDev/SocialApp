@@ -1,0 +1,43 @@
+.Card_post{
+    width: 100%;
+    font-size: 14px;
+    padding: .2rem 0;
+}
+.Card_bodyImg:hover{
+    transition: 1s all;
+    cursor: pointer;
+    filter: brightness(0.5);
+}
+
+.Card_bodyImg{
+    width: 100%;
+}
+
+.Card_header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 0;
+}
+
+.profileImg_head{
+    display: flex;
+    align-items: center;
+}
+
+.button{
+    font-size: 17px;
+    font-weight: 600;
+    padding: .5rem 1rem ;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .Card_post{
+      border: 1px solid gray;
+      margin: 1rem 0;
+      padding: 0 1rem 1rem;
+    }
+  
+  
+  }

@@ -1,0 +1,115 @@
+#root {
+  box-sizing: border-box;
+width: 100%;  margin: 0 auto;
+  text-decoration: none;
+  overflow-x: hidden;
+}
+
+.dropbox{
+  padding: 0 1rem 1rem ;
+  border: 1px solid white;
+  width: 35rem;
+  margin: 4rem auto;
+}
+
+.dropbox_input{
+  margin: 1rem 0;
+  height: 6rem;
+  padding: .5rem 1rem;
+  border: 2px dashed gray ;
+  
+}
+.dropbox_input p{
+  font-size: 19px;
+  font-weight: 600;
+  margin: 2.3rem 0;
+  color: gray;
+}
+
+button{
+  font-weight: 500;
+  background-color: #673AB7;
+  border: none;
+  font-size: 18px;
+  padding: .5rem 1.5rem;
+  border-radius:.5rem ;
+  cursor: pointer;
+}
+
+button:hover{
+  transition: 1s all;
+  background-color: #3B1C32;  
+}
+
+.backButton{
+  margin: 1rem 0 0 0;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #8F90A1;
+}
+
+.ImagenUpload{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+  padding: 1rem 0;
+  width: 100%;
+  max-height: 60vh;
+  background-color: #1a1a1a;
+}
+.ImagenUpload img{
+  margin: auto;
+  width: auto;
+  max-height:60vh;
+}
+
+.container-img{
+  margin-top: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-wrapp{
+  margin: 0 auto;
+  width: 24%;
+  padding: 0 5px;
+}
+
+
+@media screen and (max-width: 1280px) {
+  .container-img{
+    overflow-x: hidden;
+    width: 100%;
+    margin: 4rem auto;
+  }
+  .grid-wrapp{
+    width: 35%;
+  }
+
+
+  
+}
+
+@media screen and (max-width: 1024px) {
+  .grid-wrapp{
+    padding: 0 1rem;
+    width: 50%;
+  }
+
+
+}
+
+@media screen and (max-width: 800px) {
+  .grid-wrapp{
+    padding: 0 1rem;
+    width: 90%;
+  }
+
+}
